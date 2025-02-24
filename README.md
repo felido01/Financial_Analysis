@@ -45,4 +45,5 @@
 * ##### I dropped The Outlier
 #### Data Analysis
 * ##### Gender ratio: According to the Objectives, The Data about the customer gender was needed. To Achieve this, The dataset was splited  into two sector(Male and Female). The Rows of each sector were counted using .shape function, Alternate method could be .count() function . The male to female ratio respectively was gotten to be 2996 : 3133. We can conclude from here that female customers area little more than the male
-* ##### Age Distribution:
+* ##### Age Distribution: Since we want to deal with  customer unique details rather than card details, we need to ensure that each customer is uniquely represented. To achieve this, we will remove duplicate records based on a unique customer identifier, Once we have a cleaned dataset, we will analyze the age distribution to better understand the range of ages among our customers. I analyzed the age distribution using the .min() and .max() functions. The results showed that our customers range in age from 18 to 101
+* 
