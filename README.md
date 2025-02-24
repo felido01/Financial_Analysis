@@ -34,4 +34,15 @@
 * ##### credit_limit, year_pin_last_changed
 ---
 ### ANALYSIS STEP
-##### Data Preparation
+#### Data Preparation
+* ##### There two data set with a column in common(main_id and client_id). I Merged the two data using .merge() function
+#### Data Cleaning
+* ##### The Merged data resulted in duplicated main_id but distinct card_id.
+* ##### Checked for overall duplicated values and duplicates values in the card_id alone
+###### Note: The scope of this merged dataset is that the data set has duplicated customer with different card_id(Same customer with multiple cards)
+* ##### Checked for null values. Fortunately there was none
+* ##### Something unusual was noticed. Some Customer had a yearly income of less than 5( it could be an outlier)
+* ##### I dropped The Outlier
+#### Data Analysis
+* ##### Gender ratio: According to the Objectives, The Data about the customer gender was needed. To Achieve this, The dataset was splited  into two sector(Male and Female). The Rows of each sector were counted using .shape function, Alternate method could be .count() function . The male to female ratio respectively was gotten to be 2996 : 3133. We can conclude from here that female customers area little more than the male
+* ##### Age Distribution:
