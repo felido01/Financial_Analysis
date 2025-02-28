@@ -49,6 +49,9 @@
 * ##### Age Distribution: Since we want to deal with  customer unique details rather than card details, we need to ensure that each customer is uniquely represented. To achieve this, we will remove duplicate records based on a unique customer identifier, Once we have a cleaned dataset, we will analyze the age distribution to better understand the range of ages among our customers. I analyzed the age distribution using the .min() and .max() functions. The results showed that our customers range in age from 18 to 101. using .pivot_table() function, i got the count of each age.The highest number of customers are aged 18, while the lowest are aged 101
 
 * ##### Income Distribution: From My Analysis, We have a very low amount of Customers with the High yearly Income, that is , customer with 100000 and above.
+
+  <img src="https://example.com/image.jpg" alt="Image" width="300">
+
   
 * ##### Credit Risk Analysis: To assess credit risk, we use the **Debt-to-Income Ratio (DTI)** to understand a borrower's ability to manage debt compared to their income. A **higher DTI** means greater financial strain and a higher risk of default, A **lower DTI** indicates better financial stability and lower credit risk. (Note that: Lenders rely on this ratio to determine loan eligibility, set interest rates, and evaluate the likelihood of repayment). The **DTI** in this analysis ranged from a minimum of **0.13%** to a maximum of **497.86%**. A **DTI greater than 100%** means that a person’s debt payments exceed their income. This is a sign of **high credit risk**, as they may need to rely on savings or new debt to meet financial obligations. Lenders may see such borrowers as risky and could: **Deny credit**, **Offer loans with higher interest rates**, **Require collateral** to reduce their risk  
 
