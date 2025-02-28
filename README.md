@@ -57,4 +57,7 @@
 * ##### From My Analysis, There are 535 Customers with more than one credit card 
 ---
 
-#### Conclusion: After indepth Analysis, I was able to uncover Insights on customer data and give recommendation for Marketing Strategies (based on credit scores, income, and card types). This was all done in the Data Analysis Stage of my Project
+#### Conclusion:
+##### After indepth Analysis, I was able to uncover Insights on customer data and give recommendation for Marketing Strategies (based on credit scores, income, and card types). This was all done in the Data Analysis Stage of my Project
+---
+###### Data Analyst: Felix Idowu
