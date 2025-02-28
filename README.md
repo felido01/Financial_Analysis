@@ -54,7 +54,7 @@
 
 * ##### Insights for Marketing: From the Analysis, The majority of customers (4,107 general customers) require broad engagement strategies like loyalty programs, personalized recommendations, and awareness campaigns to maintain their interest. 1,962 growth potential customers present an opportunity for targeted upselling, cross-selling, and exclusive offers to encourage higher spending and engagement. Although high-value customers are few (60), they are the most profitable and should receive personalized attention through VIP programs, premium services, and special perks to ensure retention.
 
-* ##### From My Analysis, There are 535 Customers with more than one credit card 
+* ##### From My Analysis, There are 535 Customers with more than one credit card [Click to view python code](https://github.com/felido01/Financial_Analysis/blob/f1c30cff51486aae6a15544eba69ceedb0b4aa7d/Financial%20Analysis.ipynb)
 ---
 
 #### Conclusion:
